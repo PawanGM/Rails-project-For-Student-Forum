@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  c_id: 1
+  q_id: 1
+
+two:
+  c_id: 1
+  q_id: 1

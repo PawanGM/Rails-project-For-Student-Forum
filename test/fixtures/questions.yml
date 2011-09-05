@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  q_id: 1
+  question_text: MyString
+  option1: MyString
+  option2: MyString
+  option3: MyString
+  option4: MyString
+  option5: MyString
+  answer: MyString
+  expl: MyString
+  admin_rating: 1
+
+two:
+  q_id: 1
+  question_text: MyString
+  option1: MyString
+  option2: MyString
+  option3: MyString
+  option4: MyString
+  option5: MyString
+  answer: MyString
+  expl: MyString
+  admin_rating: 1

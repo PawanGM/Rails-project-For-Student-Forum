@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  domain_name: MyString
+  q_id: 1
+
+two:
+  domain_name: MyString
+  q_id: 1

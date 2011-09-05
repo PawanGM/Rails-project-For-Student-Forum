@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  c_id: 1
+  c_name: MyString
+  link: MyString
+
+two:
+  c_id: 1
+  c_name: MyString
+  link: MyString
