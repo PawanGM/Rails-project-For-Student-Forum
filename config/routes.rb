@@ -1,6 +1,13 @@
 Forum::Application.routes.draw do
+resources :users
+  
+  
+  
+
 
   get "users/new"
+match '/signup', :to => 'users#new'
+
 match '/signup', :to => 'users#new'
 match '/', :to => 'pages#home'
 match '/contact', :to => 'pages#contact'
