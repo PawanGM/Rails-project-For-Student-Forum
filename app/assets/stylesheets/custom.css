@@ -94,3 +94,19 @@ footer nav {
   float: none;
 }
 
+  /td.sidebar {
+  width: 30%;
+  padding: 1em;
+  vertical-align: top;
+  background: #ffc;
+}
+/* User show page */
+table.profile {
+   width: 100%;
+   margin-bottom: 0;
+}
+td.main {
+   width: 70%;
+   padding: 1em;
+}
+
