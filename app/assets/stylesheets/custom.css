@@ -110,3 +110,7 @@ td.main {
    padding: 1em;
 }
 
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
