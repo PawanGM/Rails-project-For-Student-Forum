@@ -44,5 +44,11 @@ module Forum
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    # Configure sensitive parameters which will be filtered from the log file.
+    #config.action_dispatch.parameter_filter = [:password]
+
+	#config.filter_parameters += [:password]
   end
 end
+
+

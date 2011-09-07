@@ -1,5 +1,11 @@
 Forum::Application.routes.draw do
 resources :users
+resources :questions
+ 
+ get "admin/fillup"
+match '/fillup', :to => 'admin#fillup'
+  get "pages/fillup"
+
   
   
   
