@@ -155,3 +155,10 @@ div.field, div.actions {
   list-style: square;
 }
 
+ul.questions {
+  margin-top: 1em;
+}
+.questions li {
+  list-style: none;
+}
+

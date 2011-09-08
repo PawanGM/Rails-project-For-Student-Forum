@@ -1,0 +1,20 @@
+ <h1>All Questions</h1>
+<ul class="questions">
+  <% @questions.each do |q| %>
+    <li>
+      
+      Question <%= q.id %>:<br>
+      <%= q.question_text %> <br>
+      A)<%= q.option1 %> <br>
+      B)<%= q.option2 %> <br>
+      C)<%= q.option3 %> <br>
+     <% if q.option4 != nil %>
+      D)<%= q.option4 %> <br>
+	<% end %>
+      Answer : <%= q.answer %> <br>
+      Explanation : <%= q.expl %> <br>
+      Admin Rating : <%= q.admin_rating %> <br>			
+    </li>
+  <% end %>
+</ul>
+
